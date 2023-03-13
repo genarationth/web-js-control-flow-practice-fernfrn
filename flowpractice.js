@@ -11,3 +11,10 @@ function dayNumber(number) {
 }
 console.log(dayNumber(0));
 
+// iternary part
+const password = 'pas$word';
+
+password.length >= 12 ? console.log('Strong password')
+ :password.length >= 8 ? console.log('Welcome!!!')
+    :console.log('Password is weak!!!');
+ 
